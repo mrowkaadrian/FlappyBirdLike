@@ -1,8 +1,2 @@
-﻿  AssetManager.cpp
-  InputManager.cpp
-d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\inputmanager.cpp(6): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\inputmanager.cpp(6): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-  main.cpp
-  StateMachine.cpp
-  Generating Code...
+﻿  Game.cpp
   Flappy-bird-like.vcxproj -> D:\workspace\GitHub\GitKraken\Flappy-bird\Flappy-bird-like\x64\Debug\Flappy-bird-like.exe

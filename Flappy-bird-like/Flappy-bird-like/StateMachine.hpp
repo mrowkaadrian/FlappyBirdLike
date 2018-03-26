@@ -14,9 +14,7 @@ namespace Varnaxes {
 		// ----- CLASS VARIABLES -----
 		std::stack<StateRef> _states;
 		StateRef _newState;
-		bool _isRemoving;
-		bool _isAdding;
-		bool _isReplacing;
+		bool _isRemoving, _isAdding, _isReplacing;
 
 	public:
 		// ----- CONSTRUCTOR/DESTRUCTOR -----

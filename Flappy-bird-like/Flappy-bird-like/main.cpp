@@ -1,10 +1,11 @@
 #include <SFML/Graphics.hpp>
 
+#include "Definitions.hpp"
 #include "Game.hpp"
 
 int main() {
 
-	Varnaxes::Game(800, 600, "SFML Starter");
+	Varnaxes::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Flappy Beerd");
 
 	return EXIT_SUCCESS;
 }
