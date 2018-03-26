@@ -1,5 +1,6 @@
 #include "MainMenuState.hpp"
 #include "Definitions.hpp"
+#include "GameState.hpp"
 
 #include <iostream>
 #include <sstream>
@@ -39,7 +40,8 @@ namespace Varnaxes {
 			}
 
 			if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window)) {
-				std::cout << "Go to game screen \n";
+				//std::cout << "Go to game screen \n";
+				this->_data->machine.AddState(StateRef(new GameState(_data)), true);
 			}
 		}
 	}

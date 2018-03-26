@@ -7,6 +7,7 @@
 
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "res/res/Splash Background.png"
 #define MAIN_MENU_BACKGROUND_FILEPATH "res/res/sky.png"
+#define GAME_BACKGROUND_FILEPATH "res/res/sky.png"
 #define GAME_TITLE_FILEPATH "res/res/title.png"
 
 #define PLAY_BUTTON_FILEPATH "res/res/PlayButton.png"
