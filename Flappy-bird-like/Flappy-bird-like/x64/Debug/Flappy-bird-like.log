@@ -1,6 +1,8 @@
-﻿  GameState.cpp
+﻿  GameOverState.cpp
+  GameState.cpp
   main.cpp
   MainMenuState.cpp
+  Pipe.cpp
   SplashState.cpp
   Generating Code...
   Flappy-bird-like.vcxproj -> D:\workspace\GitHub\GitKraken\Flappy-bird\Flappy-bird-like\x64\Debug\Flappy-bird-like.exe

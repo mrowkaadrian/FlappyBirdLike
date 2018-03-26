@@ -13,6 +13,10 @@ namespace Varnaxes {
 
 	void GameState::Init() {
 		this->_data->assets.LoadTexture("Game Background", GAME_BACKGROUND_FILEPATH);
+		this->_data->assets.LoadTexture("Pipe Up", ITEM_PIPE_UP_FILEPATH);
+		this->_data->assets.LoadTexture("Pipe Down", ITEM_PIPE_DOWN_FILEPATH);
+
+		pipe = new Pipe(_data);
 
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"));
 	}
@@ -34,6 +38,7 @@ namespace Varnaxes {
 	void GameState::Draw(float dt) {
 		this->_data->window.clear(sf::Color::Red);
 		this->_data->window.draw(_background);
+		pipe->DrawPipes();
 		this->_data->window.display();
 	}
 }
