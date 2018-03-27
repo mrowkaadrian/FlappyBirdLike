@@ -4,6 +4,7 @@
 #include "State.hpp"
 #include "Game.hpp"
 #include "Pipe.hpp"
+#include "Ground.hpp"
 
 namespace Varnaxes {
 	class GameState : public State {
@@ -11,8 +12,10 @@ namespace Varnaxes {
 		GameDataRef _data;
 		sf::Texture _backgroundTexture;
 		sf::Sprite _background;
-		Pipe *pipe;
 		sf::Clock clock;
+
+		Pipe *pipe;
+		Ground *ground;
 
 	public:
 		GameState(GameDataRef data);
