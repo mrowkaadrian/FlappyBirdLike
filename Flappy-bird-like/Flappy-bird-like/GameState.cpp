@@ -30,15 +30,25 @@ namespace Varnaxes {
 			}
 
 			if (_data->input.IsSpriteClicked(_background, sf::Mouse::Left, _data->window)) {
+				/*
 				pipe->SpawnInvisiblePipe();
 				pipe->SpawnBottomPipe();
 				pipe->SpawnTopPipe();
+				*/
 			}
 		}
 	}
 
 	void GameState::Update(float dt) {
 		pipe->MovePipes(dt);
+
+		if (clock.getElapsedTime().asSeconds() > PIPE_SPAWN_RATE) {
+
+			pipe->SpawnBottomPipe();
+			pipe->SpawnTopPipe();
+			pipe->SpawnInvisiblePipe();
+			clock.restart();
+		}
 	}
 
 	void GameState::Draw(float dt) {

@@ -17,4 +17,4 @@
 #define ITEM_PIPE_DOWN_FILEPATH "res/res/PipeDown.png"
 
 #define PIPE_MOVEMENT_SPEED 200.0f
-
+#define PIPE_SPAWN_RATE 3.0f

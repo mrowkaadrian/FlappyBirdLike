@@ -1,11 +1,5 @@
-﻿  GameOverState.cpp
-  GameState.cpp
-  MainMenuState.cpp
-  Pipe.cpp
-d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  SplashState.cpp
-  main.cpp
-  Generating Code...
+﻿  Pipe.cpp
+d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(16): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\workspace\github\gitkraken\flappy-bird\flappy-bird-like\flappy-bird-like\pipe.cpp(38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Flappy-bird-like.vcxproj -> D:\workspace\GitHub\GitKraken\Flappy-bird\Flappy-bird-like\x64\Debug\Flappy-bird-like.exe

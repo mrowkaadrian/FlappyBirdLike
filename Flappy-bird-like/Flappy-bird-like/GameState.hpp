@@ -12,6 +12,7 @@ namespace Varnaxes {
 		sf::Texture _backgroundTexture;
 		sf::Sprite _background;
 		Pipe *pipe;
+		sf::Clock clock;
 
 	public:
 		GameState(GameDataRef data);
