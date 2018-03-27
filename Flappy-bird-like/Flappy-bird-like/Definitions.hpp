@@ -16,3 +16,5 @@
 #define ITEM_PIPE_UP_FILEPATH "res/res/PipeUp.png"
 #define ITEM_PIPE_DOWN_FILEPATH "res/res/PipeDown.png"
 
+#define PIPE_MOVEMENT_SPEED 200.0f
+

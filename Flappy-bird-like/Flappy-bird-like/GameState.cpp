@@ -28,11 +28,17 @@ namespace Varnaxes {
 			if (sf::Event::Closed == event.type) {
 				this->_data->window.close();
 			}
+
+			if (_data->input.IsSpriteClicked(_background, sf::Mouse::Left, _data->window)) {
+				pipe->SpawnInvisiblePipe();
+				pipe->SpawnBottomPipe();
+				pipe->SpawnTopPipe();
+			}
 		}
 	}
 
 	void GameState::Update(float dt) {
-		
+		pipe->MovePipes(dt);
 	}
 
 	void GameState::Draw(float dt) {

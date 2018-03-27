@@ -13,6 +13,10 @@ namespace Varnaxes {
 	public:
 		Pipe(GameDataRef data);
 		
+		void SpawnTopPipe();
+		void SpawnBottomPipe();
+		void SpawnInvisiblePipe();
+		void MovePipes(float dt);
 		void DrawPipes();
 
 	};
